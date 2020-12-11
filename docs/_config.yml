@@ -1,0 +1,5 @@
+# Site settings
+title: Twine for WikiCite
+description: Twine code for learning about Wikidata and WikiCite from Vanderbilt University Libraries
+url: "https://heardlibrary.github.io"
+baseurl: "/twine-for-wikicite"
