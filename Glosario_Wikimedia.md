@@ -12,7 +12,7 @@
 | ID                                                | identificador                                                            |  识别码           
 | item                                              | ítem; elemento                                                           |  单项           
 | label                                             | etiqueta                                                                 |  标签          
-| pipe ( | character)                               | pleca (wd oficial); paip (preferido por wmArg YT)                        |  竖线 （插入字前）        
+| pipe ( `|` character)                               | pleca (wd oficial); paip (preferido por wmArg YT)                        |  竖线 （插入字前）        
 | plain text (not wikified)                         | texto plano (texto no wikificado)                                        |  纯本文（尚未维基化）        
 | property (P)                                      | propiedad                                                                |  属性       
 | public domain                                     | dominio público                                                          |  公有领域      
