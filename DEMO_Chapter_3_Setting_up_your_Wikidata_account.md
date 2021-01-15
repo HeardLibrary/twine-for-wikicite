@@ -1,5 +1,11 @@
 DEMO: SETTING UP A WIKIDATA ACCOUNT [3rd lesson – Follows intro to linked data]
 
+SHOW HOW TO SET YOUR LANGUAGE
+
+At the top center of every of every Wikidata page, the current language is displayed. You can change your display language by clicking here.
+
+SHOW HOW TO SET UP AN ACCOUNT
+
 To start your account, click the &quot;Log in&quot; tab in the upper right of any Wikidata page. Look to the bottom of the page and click the &quot;Join Wikidata&quot; button.
 
 Choose a username --- you can use your name or a nickname. Choose a password.
