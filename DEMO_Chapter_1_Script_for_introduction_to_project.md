@@ -22,7 +22,7 @@ Your team can help elevate the research profile of your institution. For example
 
 Linked data is increasingly important in information organization. By working with Wikidata, your library&#39;s staff will become familiar with the organization, use, and difficulties of linked data. In our library, many specialists from the director, to administrative staff, to assistants have worked together on our WikiCite project.
 
-There is a low barrier to entry to editing Wikidata – All you need is a PC, internet connection, and training like this one. Most of our team self-trained after a brief introductory video, but we believe that an interactive course like ours will reduce some of the frustration that we felt.
+There is a low barrier to entry to editing Wikidata – All you need is a PC, internet connection, good faith, and training like this one. Most of our team self-trained after a brief introductory video, but we believe that an interactive course like ours will reduce some of the frustration that we felt.
 
 This interactive course is made up of short video segments. You can navigate directly to videos that are of interest to you using our Twine navigation map. [Edit here with specifics when the Twine is developed.]
 
