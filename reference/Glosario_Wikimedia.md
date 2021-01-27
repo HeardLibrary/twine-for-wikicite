@@ -19,7 +19,7 @@
 | Q number                                          | identificador de ítem; elemento Q; ítem                                  |  Q 数字（唯一特定的数字）     
 | qualifier                                         | calificador                                                              |  限定词    
 | rank                                              | rango                                                                    |  排序   
-| sandbox                                           | taller; zona de pruebas                                                  |  沙箱  
+| sandbox                                           | taller; zona de pruebas                                                  |  沙盒  
 | SPARQL                                            | SPARQL (se pronuncia "espar-cu-ele")                                     |  语言用于查询任何基于资源描述架构（RDF）的数据 
 | statement                                         | declaración                                                              |  说明
 | string                                            | cadena de carácteres; ristra de carácteres                               |  字符串
