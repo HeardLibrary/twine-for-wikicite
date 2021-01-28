@@ -9,3 +9,4 @@ Link to viewing MaryMae's first page as a web page <https://heardlibrary.github.
 
 MaryMae's more complex page as a web page <https://heardlibrary.github.io/twine-for-wikicite/test-01-25.html>
 
+Try [Steve's test macro page](https://heardlibrary.github.io/twine-for-wikicite/sugarcube_macros.html)
