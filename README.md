@@ -5,5 +5,7 @@ An interactive story to welcome new users to WikiCite
 
 Link to beginning of real Twine <https://heardlibrary.github.io/twine-for-wikicite/>
 
-Link to viewing MaryMae's page as a web page <https://heardlibrary.github.io/twine-for-wikicite/WikiData2.html>
+Link to viewing MaryMae's first page as a web page <https://heardlibrary.github.io/twine-for-wikicite/WikiData2.html>
+
+MaryMae's more complex page as a web page <https://heardlibrary.github.io/twine-for-wikicite/test-01-25.html>
 
