@@ -9,4 +9,12 @@ Link to viewing MaryMae's first page as a web page <https://heardlibrary.github.
 
 MaryMae's more complex page as a web page <https://heardlibrary.github.io/twine-for-wikicite/test-01-25.html>
 
-Try [Steve's test macro page](https://heardlibrary.github.io/twine-for-wikicite/sugarcube_macros.html)
+[Twine in English](https://heardlibrary.github.io/twine-for-wikicite/lang.html?en)
+
+[Twine en español](https://heardlibrary.github.io/twine-for-wikicite/lang.html?es)
+
+[Twine en français](https://heardlibrary.github.io/twine-for-wikicite/lang.html?fr)
+
+[Twine简体中文](https://heardlibrary.github.io/twine-for-wikicite/lang.html?zh-hans)
+
+[Twine language not specified](https://heardlibrary.github.io/twine-for-wikicite/lang.html)
