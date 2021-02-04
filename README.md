@@ -15,6 +15,6 @@ MaryMae's more complex page as a web page <https://heardlibrary.github.io/twine-
 
 [Twine en français](https://heardlibrary.github.io/twine-for-wikicite/lang.html?fr)
 
-[Twine简体中文](https://heardlibrary.github.io/twine-for-wikicite/lang.html?zh-hans)
+[Twine简体中文](https://heardlibrary.github.io/twine-for-wikicite/lang.html?zh-Hans)
 
 [Twine language not specified](https://heardlibrary.github.io/twine-for-wikicite/lang.html)
