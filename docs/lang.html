@@ -100,8 +100,17 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="lang" startnode="1" creator="Twine" creator-version="2.3.9" ifid="8F70B7EA-6841-4AA4-96E0-1EC724D5D28E" zoom="1" format="SugarCube" format-version="2.31.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="573,43" size="100,100">
-&lt;&lt;if def $lang&gt;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;This is English.
+	<tw-storydata name="lang" startnode="1" creator="Twine" creator-version="2.3.9" ifid="8F70B7EA-6841-4AA4-96E0-1EC724D5D28E" zoom="1" format="SugarCube" format-version="2.31.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="573,43" size="100,100">&lt;&lt;script&gt;&gt;
+// location.search retrieves the search string from the URL (including the ?)
+var localID = location.search;
+// set the language only if there is a ? plus additional characters
+// If no search string, language is unknown
+if (localID.length&gt;1)
+	{
+	var isoLanguage=localID.substring(1);
+	state.active.variables[&quot;lang&quot;]=isoLanguage;
+	};
+&lt;&lt;/script&gt;&gt;&lt;&lt;if def $lang&gt;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;This is English.
 Edit a [[book|Book]]
 Edit an [[article|Article]]
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Esto es español
