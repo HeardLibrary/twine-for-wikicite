@@ -16,3 +16,5 @@ An interactive story to welcome new users to WikiCite
 Link to viewing MaryMae's first page as a web page <https://heardlibrary.github.io/twine-for-wikicite/WikiData2.html>
 
 MaryMae's more complex page as a web page <https://heardlibrary.github.io/twine-for-wikicite/test-01-25.html>
+
+Test of embedding Commons image and videos <https://heardlibrary.github.io/twine-for-wikicite/commons_test.html>
