@@ -18,9 +18,9 @@ What is Wikidata?
 
 How can Wikidata benefit your institution?
 
-Your team can help elevate the research profile of your institution. For example, at Vanderbilt, part of our team specialized in humanities scholars whose work had not been picked up by the major publication databases. The major databases tend to concentrate on engineering and sciences. The faculty publications entered by our teamare now linked to their subjects and our university in Wikidata.
+Your team can help elevate the research profile of your institution. For example, at Vanderbilt, part of our team specialized in humanities scholars whose work had not been picked up by the major publication databases. The major databases tend to concentrate on engineering and sciences. The faculty publications entered by our team are now linked to their subjects and our university in Wikidata.
 
-Linked data is increasingly important in information organization. By working with Wikidata, your library&#39;s staff will become familiar with the organization, use, and difficulties of linked data. In our library, many specialists from the director, to administrative staff, to assistants have worked together on our WikiCite project.
+Linked data is increasingly important in information organization. By working with Wikidata, your library&#39;s staff will become familiar with the organization, use, and difficulties of linked data. In our library, many specialists from the director, to administrative staff, to assistants have worked together on our WikiCite project, simply because we value the project.
 
 There is a low barrier to entry to editing Wikidata – All you need is a PC, internet connection, good faith, and training like this one. Most of our team self-trained after a brief introductory video, but we believe that an interactive course like ours will reduce some of the frustration that we felt.
 
