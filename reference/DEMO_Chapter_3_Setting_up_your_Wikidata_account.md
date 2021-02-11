@@ -30,7 +30,7 @@ A Babel template has this general form: {{#babel:da-0|de-1|en-2|es-3|fr-4|it-5|p
 
 You can find Babel templates to cut, paste and edit at [https://www.wikidata.org/wiki/Wikidata:Userboxes](https://www.wikidata.org/wiki/Wikidata:Userboxes)
 
-The ISO language codes may be found on Wikipedia.
+The ISO language codes used in the Babel template may be found on Wikipedia.
 
 SHOW HOW TO JOIN A WIKIPROJECT
 
