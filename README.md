@@ -9,7 +9,7 @@ An interactive story to welcome new users to WikiCite
 
 [Twine en français](https://heardlibrary.github.io/twine-for-wikicite/?fr)
 
-[Twine繁體中文](https://heardlibrary.github.io/twine-for-wikicite/?zh-Hant)
+[Twine用中文](https://heardlibrary.github.io/twine-for-wikicite/?zh-Hans)
 
 [Twine language not specified](https://heardlibrary.github.io/twine-for-wikicite/)
 
