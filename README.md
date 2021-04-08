@@ -3,6 +3,8 @@ An interactive story to welcome new users to WikiCite
 
 [Grant proposal](https://meta.wikimedia.org/wiki/Wikicite/grant/WikiCite_for_Librarians:_Interactive_Learning_Pathways_for_Information_Professionals)
 
+![Twine passage map](map.png)
+
 [Twine in English](https://heardlibrary.github.io/twine-for-wikicite/?en)
 
 [Twine en español](https://heardlibrary.github.io/twine-for-wikicite/?es)
