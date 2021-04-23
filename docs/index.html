@@ -98,7 +98,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="Vandycite" startnode="1" creator="Twine" creator-version="2.3.13" ifid="8F70B7EA-6841-4AA4-96E0-1EC724D5D28E" zoom="1" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="875,33" size="100,100">&lt;&lt;script&gt;&gt;
+	<tw-storydata name="Vandycite" startnode="1" creator="Twine" creator-version="2.3.13" ifid="8F70B7EA-6841-4AA4-96E0-1EC724D5D28E" zoom="1" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="992,57" size="100,100">&lt;&lt;script&gt;&gt;
 // location.search retrieves the search string from the URL (including the ?)
 var localID = location.search;
 // set the language only if there is a ? plus additional characters
@@ -108,21 +108,15 @@ if (localID.length&gt;1)
 	var isoLanguage=localID.substring(1);
 	state.active.variables[&quot;lang&quot;]=isoLanguage;
 	};
-&lt;&lt;/script&gt;&gt;&lt;&lt;if def $lang&gt;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Here you will learn to create and edit entries. Choose where you would like to start.
-Edit a [[book|Book]]
-Edit an [[article|Article]]
+&lt;&lt;/script&gt;&gt;&lt;&lt;if def $lang&gt;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+[[Create an account and log in|account]]
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-Aquí aprenderás a crear y editar ítems. Elije dónde te gustaría comenzar.
-Editar un [[libro|Book]]
-Editar un [[artículo|Article]]
+[[Create an account and log in|account]]
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
 Ici, vous apprendrez à créer et modifier des entrées. Choisissez par où vous souhaitez commencer.
-Modifier un [[livre|Book]]
-Modifier un [[article|Article]]
+[[Create an account and log in|account]]
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-在这里，您将学习创建和编辑项目。选择您想开始的地方。
-编辑[[一本书|Book]]
-编辑[[期刊文章|Article]]
+[[Create an account and log in|account]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
@@ -130,7 +124,7 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 &lt;&lt;else&gt;&gt;Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;en&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
 &lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="2" name="Book" tags="" position="653,72" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/myKfc8dnqmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</tw-passagedata><tw-passagedata pid="2" name="Book" tags="" position="952,220" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/myKfc8dnqmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;We describe the fundamental units of Wikidata, //items//, using statements.&lt;/li&gt;
 &lt;li&gt;A //statement// consists of a //property// and a //value//.&lt;/li&gt;
@@ -170,7 +164,7 @@ Add an [[item|add_item]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Article" tags="" position="812,195" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FfXz_fOIz5U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Article" tags="" position="1004,397" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FfXz_fOIz5U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;We describe the fundamental units of Wikidata, //items//, using statements.&lt;/li&gt;
 &lt;li&gt;A //statement// consists of a //property// and a //value//.&lt;/li&gt;
@@ -210,14 +204,14 @@ Add an [[item|add_item]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Quit" tags="" position="394,22" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;We hope you will come back!
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Quit" tags="" position="511,46" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;We hope you will come back!
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;¡Esperamos que vuelvas!
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;Nous espérons que vous reviendrez!
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;希望您能再度光临！
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="person" tags="" position="371,375" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/u6BxeZ4_PVU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="person" tags="" position="488,399" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/u6BxeZ4_PVU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;To start creating a new item from any page, click the &quot;Create new item&quot; link in the left menu.&lt;/li&gt;
 &lt;li&gt;//Aliases// provide alternate labels for an item. Searches include all aliases in addition to labels.&lt;/li&gt;
@@ -253,7 +247,7 @@ ou [[quitter|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="add_item" tags="" position="683,277" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/b-ONtY2Aa8w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="add_item" tags="" position="800,301" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/b-ONtY2Aa8w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;If an item is not found during a search, the user is offered an opportunity to create it.&lt;/li&gt;
 &lt;li&gt;New items should always be given a //label// and a //description//. The label names the item and the description helps distinguish items that might have the same label by describing the item.&lt;/li&gt;
@@ -287,7 +281,7 @@ Edit an [[author]] statement.
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="author" tags="" position="534,341" size="100,100">[[person]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="author" tags="" position="651,365" size="100,100">[[person]]
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/aMrsDJ-sSS4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;Values for statements can be linked items or text strings that aren&#39;t linked to anything.&lt;/li&gt;
@@ -322,7 +316,7 @@ Add a [[person]].
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="supporting_edits" tags="" position="222,375" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/J9MlKe_jk6w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="supporting_edits" tags="" position="339,399" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/J9MlKe_jk6w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;Statements in Wikidata are claims that should be supported by links to authoritative material outside of Wikidata.&lt;/li&gt;
 &lt;li&gt;Items that represent written works can be linked to either a well-known identifier like a DOI or PubMed ID.&lt;/li&gt;
@@ -356,13 +350,14 @@ ou [[quitter|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="add_reference" tags="" position="86,377" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/kvsyaKQsKRE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="add_reference" tags="" position="203,401" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/kvsyaKQsKRE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;References are important to support most statements in Wikidata.&lt;/li&gt;
 &lt;li&gt;Only statements that are obvious, like &quot;instance of&quot;, don&#39;t need references.&lt;/li&gt;
 &lt;li&gt;Three of the most important reference properties are “stated in,” &quot;reference URL&quot; (for URLs) and &quot;retrieved&quot; (also for URLs).&lt;/li&gt;
 
 Return to [[Welcome to WikiData]]
+[[Link to a publisher|publisher]]
 or [[Quit]]
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/dZul0KqBOC4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -371,18 +366,87 @@ or [[Quit]]
 &lt;li&gt;Tres de las propiedades mas importantes son “afirmado en,” &quot;texto completo en&quot; (para URLs) y &quot;fecha de acceso&quot; (también para URLs).&lt;/li&gt;
 
 Volver al [[Bienvenido a WikiData|Welcome to WikiData]]
+[[Link to a publisher|publisher]]
 o [[salir|Quit]]
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
 Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
+[[Link to a publisher|publisher]]
 ou [[quitter|Quit]]
 
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/2x46tyrAuOA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;为要证实大部分的陈述，添加参考是必要的。&lt;/li&gt;
 &lt;li&gt;只有显而易见的属性，例如性质，可以不需添加参考。&lt;/li&gt;
-&lt;li&gt;•	添加参考要列出「载于」，「来源网址」，和「检索日期」的属性。&lt;/li&gt;
+&lt;li&gt;添加参考要列出「载于」，「来源网址」，和「检索日期」的属性。&lt;/li&gt;
 
 回到[[欢迎使用维基数据|Welcome to WikiData]]
+[[Link to a publisher|publisher]]
+回到[[停止工作|Quit]]
+&lt;&lt;else&gt;&gt;unknown language
+Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
+[[Go|Welcome to WikiData]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="publisher" tags="" position="64.5,383" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/I7SHlyiu7i0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;li&gt;The publisher property is important for books and journal articles. Its value is a publisher item.&lt;/li&gt;
+&lt;li&gt;If you use a web page as a reference, you should include values for the “reference URL” and “retrieved” properties.&lt;/li&gt;
+
+Return to [[Welcome to WikiData]]
+or [[Quit]]
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/s7Fh7RE4Q54&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+
+Volver al [[Bienvenido a WikiData|Welcome to WikiData]]
+o [[salir|Quit]]
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
+ou [[quitter|Quit]]
+
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/iZbHvp6jB3Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+
+回到[[欢迎使用维基数据|Welcome to WikiData]]
+回到[[停止工作|Quit]]
+&lt;&lt;else&gt;&gt;unknown language
+Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
+[[Go|Welcome to WikiData]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1126.5,195" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/qxusCaEu6hQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;li&gt;It is better to create an account and edit while you are logged in because people will believe that your edits are more reliable.&lt;/li&gt;
+&lt;li&gt;You only need to provide a username and password to open an account. An email address is optional if you are concerned about privacy.&lt;/li&gt;
+&lt;li&gt;Your Wikidata account will also work for Wikipedia and Wikimedia Commons.&lt;/li&gt;
+
+Return to [[Welcome to WikiData]]
+Edit a [[book|Book]]
+Edit an [[article|Article]]
+or [[Quit]]
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/Fga1fLcJ5Eg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;li&gt;Es mejor crear una cuenta y editar mientras estás registrado porque tu historial puede confirmar que tus ediciones son fiables.&lt;/li&gt;
+&lt;li&gt;Para abrir tu cuenta, solamente se necesita crear un nombre de usuario y una contraseña. Es opcional dar tu email.&lt;/li&gt;
+&lt;li&gt;Tu cuenta de Wikidata también sirve para editar en Wikipedia y Wikimedia Commons.&lt;/li&gt;
+
+Volver al  [[Bienvenido a WikiData|Welcome to WikiData]]
+Edit a [[book|Book]]
+Edit an [[article|Article]]
+o [[salir|Quit]]
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;Toutes nos félicitations! Pour travailler sur un autre livre ou choisir un article
+Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
+Edit a [[book|Book]]
+Edit an [[article|Article]]
+ou [[quitter|Quit]]
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/OxYLBa-ZjLI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;li&gt;人们会更相信你所编辑的数据，如果你有建立账户。&lt;/li&gt;
+&lt;li&gt;创建账户只需要输入你的用户名和密码。你有权力决定是否加入你的电邮地址。&lt;/li&gt;
+&lt;li&gt;你的同一个账户可分别用于维基数据，维基百科，和维基媒体。&lt;/li&gt;
+
+回到[[欢迎使用维基数据|Welcome to WikiData]]
+Edit a [[book|Book]]
+Edit an [[article|Article]]
 回到[[停止工作|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
