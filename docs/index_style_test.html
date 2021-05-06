@@ -653,31 +653,27 @@ ou [[quitter|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1439,226" size="100,100">	&lt;!-- content area --&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1439,225" size="100,100">	&lt;!-- content area --&gt;
 
 	&lt;div class=&quot;content-wrapper&quot;&gt;
 		&lt;p&gt;Here you will learn to create and edit entries.
 		Choose where you would like to start.&lt;/p&gt;
-
-		&lt;div class=&quot;links-wrapper&quot;&gt;
-			&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;
-				Edit a book
-			&lt;/a&gt;
-			&lt;a href=&quot;#&quot; class=&quot;btn btn-app&quot;&gt;
-				Edit an article
-			&lt;/a&gt;
-		&lt;/div&gt;
-
 		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 &lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/qxusCaEu6hQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/Fga1fLcJ5Eg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/OxYLBa-ZjLI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
-			&lt;a href=&quot;#&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
-				Restart
+			&lt;a data-passage=&quot;Book&quot; class=&quot;btn btn-app&quot;&gt;
+				Edit a book
 			&lt;/a&gt;
-			&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;
-				Save
+			&lt;a data-passage=&quot;Article&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
+				Edit an article
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot; class=&quot;btn btn-primary&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot; class=&quot;btn btn-app&quot;&gt;
+				Quit
 			&lt;/a&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;
