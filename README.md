@@ -15,6 +15,8 @@ An interactive story to welcome new users to WikiCite
 
 [Twine language not specified](https://heardlibrary.github.io/twine-for-wikicite/)
 
+[Twine web template](https://heardlibrary.github.io/twine-for-wikicite/index_style_test.html?en) click on first link to get to styled page
+
 Link to viewing MaryMae's first page as a web page <https://heardlibrary.github.io/twine-for-wikicite/WikiData2.html>
 
 MaryMae's more complex page as a web page <https://heardlibrary.github.io/twine-for-wikicite/test-01-25.html>
