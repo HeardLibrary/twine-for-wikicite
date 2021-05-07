@@ -241,11 +241,16 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  margin: 0px;
+  margin-left: 100px;
+  margin-right: 20px;
   line-height: 35px;
   letter-spacing: -0.22px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
+}
+
+.contact-wrapper p a {
+  color: #fa8802;
 }
 
 .contact-links-wrapper {
@@ -653,58 +658,99 @@ ou [[quitter|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1439,225" size="100,100">	&lt;!-- content area --&gt;
-
-	&lt;div class=&quot;content-wrapper&quot;&gt;
-		&lt;p&gt;Here you will learn to create and edit entries.
-		Choose where you would like to start.&lt;/p&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1439,225" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Creating a Wikimedia account&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Cómo crear tu cuenta en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;创建账户&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
 		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 &lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/qxusCaEu6hQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/Fga1fLcJ5Eg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/OxYLBa-ZjLI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 			&lt;a data-passage=&quot;Book&quot; class=&quot;btn btn-app&quot;&gt;
 				Edit a book
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;Article&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
+			&lt;a data-passage=&quot;Article&quot; class=&quot;btn btn-primary&quot;&gt;
 				Edit an article
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;Welcome to WikiData&quot; class=&quot;btn btn-primary&quot;&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;Book&quot; class=&quot;btn btn-app&quot;&gt;
+				Edit a book
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot; class=&quot;btn btn-primary&quot;&gt;
+				Edit an article
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;Book&quot; class=&quot;btn btn-app&quot;&gt;
+				Edit a book
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot; class=&quot;btn btn-primary&quot;&gt;
+				Edit an article
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;Book&quot; class=&quot;btn btn-app&quot;&gt;
+				Bonjour
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot; class=&quot;btn btn-primary&quot;&gt;
+				manger du fromage
+			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;It is better to create an account and edit while you are logged in because people will believe that your edits are more reliable.&lt;/li&gt;&lt;li&gt;You only need to provide a username and password to open an account. An email address is optional if you are concerned about privacy.&lt;/li&gt;&lt;li&gt;Your Wikidata account will also work for Wikipedia and Wikimedia Commons.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Es mejor crear una cuenta y editar mientras estás registrado porque tu historial puede confirmar que tus ediciones son fiables.&lt;/li&gt;&lt;li&gt;Para abrir tu cuenta, solamente se necesita crear un nombre de usuario y una contraseña. Es opcional dar tu email.&lt;/li&gt;&lt;li&gt;Tu cuenta de Wikidata también sirve para editar en Wikipedia y Wikimedia Commons.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;人们会更相信你所编辑的数据，如果你有建立账户。&lt;/li&gt;&lt;li&gt;创建账户只需要输入你的用户名和密码。你有权力决定是否加入你的电邮地址。&lt;/li&gt;&lt;li&gt;你的同一个账户可分别用于维基数据，维基百科，和维基媒体。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
+
+				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;Book&quot;&gt;
+				Edit a book
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot;&gt;
+				Edit an article
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
 				Start over
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;Quit&quot; class=&quot;btn btn-app&quot;&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
 				Quit
 			&lt;/a&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;
-		&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
-&lt;li&gt;It is better to create an account and edit while you are logged in because people will believe that your edits are more reliable.&lt;/li&gt;
-&lt;li&gt;You only need to provide a username and password to open an account. An email address is optional if you are concerned about privacy.&lt;/li&gt;
-&lt;li&gt;Your Wikidata account will also work for Wikipedia and Wikimedia Commons.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-&lt;li&gt;Es mejor crear una cuenta y editar mientras estás registrado porque tu historial puede confirmar que tus ediciones son fiables.&lt;/li&gt;
-&lt;li&gt;Para abrir tu cuenta, solamente se necesita crear un nombre de usuario y una contraseña. Es opcional dar tu email.&lt;/li&gt;
-&lt;li&gt;Tu cuenta de Wikidata también sirve para editar en Wikipedia y Wikimedia Commons.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-&lt;li&gt;人们会更相信你所编辑的数据，如果你有建立账户。&lt;/li&gt;
-&lt;li&gt;创建账户只需要输入你的用户名和密码。你有权力决定是否加入你的电邮地址。&lt;/li&gt;
-&lt;li&gt;你的同一个账户可分别用于维基数据，维基百科，和维基媒体。&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
-	&lt;/div&gt;
-
-&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
-&lt;button data-passage=&quot;Welcome to WikiData&quot;&gt;Return to Welcome to WikiData&lt;/button&gt;
-Edit a [[book|Book]]
-Edit an [[article|Article]]
-or [[Quit]]
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-Volver al  [[Bienvenido a WikiData|Welcome to WikiData]]
-Edit a [[book|Book]]
-Edit an [[article|Article]]
-o [[salir|Quit]]
+			&lt;a data-passage=&quot;Book&quot;&gt;
+				Edit a book
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot;&gt;
+				Edit an article
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Volver al Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				salir
+			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-回到[[欢迎使用维基数据|Welcome to WikiData]]
-Edit a [[book|Book]]
-Edit an [[article|Article]]
-回到[[停止工作|Quit]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="qualifiers" tags="" position="246,370" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FOAlp5VIb9Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+			&lt;a data-passage=&quot;Book&quot;&gt;
+				Edit a book
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot;&gt;
+				Edit an article
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				回到 Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				停止工作
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;Book&quot;&gt;
+				Gateaux
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Article&quot;&gt;
+				Château
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Chevaux
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Chapeau
+			&lt;/a&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+	&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="12" name="qualifiers" tags="" position="246,370" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FOAlp5VIb9Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;Qualifiers help us to understand the context of statements.&lt;/li&gt;
 &lt;li&gt;Qualifiers can distinguish between different values for the same property. For example, they may help us know the order of values, or give the time period where a value was valid.&lt;/li&gt;
