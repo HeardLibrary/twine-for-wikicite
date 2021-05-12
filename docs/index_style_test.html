@@ -345,7 +345,7 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 /* override the fixed width of the passage area */
 #passages {
   max-width: unset;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="1305,88" size="100,100">&lt;&lt;script&gt;&gt;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="1208,32" size="100,100">&lt;&lt;script&gt;&gt;
 // location.search retrieves the search string from the URL (including the ?)
 var localID = location.search;
 // set the language only if there is a ? plus additional characters
@@ -371,87 +371,141 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 &lt;&lt;else&gt;&gt;Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;en&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
 &lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="2" name="Book" tags="" position="1265,251" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/myKfc8dnqmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;We describe the fundamental units of Wikidata, //items//, using statements.&lt;/li&gt;
-&lt;li&gt;A //statement// consists of a //property// and a //value//.&lt;/li&gt;
-&lt;li&gt;The most important property for making a statement about an item is probably &#39;&#39;P31&#39;&#39; (//instance of//), which describes the type of thing the item is.&lt;/li&gt;
-&lt;li&gt;When we start typing in an edit, dropdown lists help us select the right properties and values to use in the statement.&lt;/li&gt;
-
-Congratulations!  To work on another book, or choose an article
-Return to [[Welcome to WikiData]]
-Add an [[item|add_item]]
-or [[Quit]]
+</tw-passagedata><tw-passagedata pid="2" name="Book" tags="" position="1142,263" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Editing a book item&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Cómo describir un libro en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;书的编辑&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/myKfc8dnqmc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/kBGSUqTWiNg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;Describimos la unidad fundamental de Wikidata, el //ítem//, haciendo //declaraciones//.&lt;/li&gt;
-&lt;li&gt;Una //declaración// consiste de una //propiedad// y su //valor//. &lt;/li&gt;
-&lt;li&gt;La propiedad más importante para hacer una declaración sobre un ítem es probablemente el P31 (//instancia de//), que describe la clase del ítem.&lt;/li&gt;
-&lt;li&gt;Cuando empezemos a escribir en una caja de texto, aparecen menús desplegables que nos ayudan a escoger las propiedades y valores más apropriadas para la declaración.&lt;/li&gt;
-
-¡Felicitaciones! Para trabajar en otro libro o elegir un artículo
-Volver al  [[Bienvenido a WikiData|Welcome to WikiData]]
-Add an [[item|add_item]]
-o [[salir|Quit]]
-&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;Toutes nos félicitations! Pour travailler sur un autre livre ou choisir un article
-Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
-Add an [[item|add_item]]
-ou [[quitter|Quit]]
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/hdCQSFV_CF0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;We describe the fundamental units of Wikidata, //items//, using statements.&lt;/li&gt;&lt;li&gt;A //statement// consists of a //property// and a //value//.&lt;/li&gt;&lt;li&gt;The most important property for making a statement about an item is probably &#39;&#39;P31&#39;&#39; (//instance of//), which describes the type of thing the item is.&lt;/li&gt;&lt;li&gt;When we start typing in an edit, dropdown lists help us select the right properties and values to use in the statement.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Describimos la unidad fundamental de Wikidata, el //ítem//, haciendo //declaraciones//.&lt;/li&gt;&lt;li&gt;Una //declaración// consiste de una //propiedad// y su //valor//. &lt;/li&gt;&lt;li&gt;La propiedad más importante para hacer una declaración sobre un ítem es probablemente el P31 (//instancia de//), que describe la clase del ítem.&lt;/li&gt;&lt;li&gt;Cuando empezemos a escribir en una caja de texto, aparecen menús desplegables que nos ayudan a escoger las propiedades y valores más apropriadas para la declaración.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;我们用陈述来解说维基数据的基本单元，项目。&lt;/li&gt;&lt;li&gt;陈述是由属性和值所组成的。&lt;/li&gt;&lt;li&gt;为一个项目来建立陈述，其中最重要的属性是P31，性质。它显示了项目是什么种类。&lt;/li&gt;&lt;li&gt;当我们开始编辑数据，下拉的选项可以帮我们为陈述选择正确的属性和值。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;li&gt;我们用陈述来解说维基数据的基本单元，项目。&lt;/li&gt;
-&lt;li&gt;陈述是由属性和值所组成的。&lt;/li&gt;
-&lt;li&gt;为一个项目来建立陈述，其中最重要的属性是P31，性质。它显示了项目是什么种类。&lt;/li&gt;
-&lt;li&gt;当我们开始编辑数据，下拉的选项可以帮我们为陈述选择正确的属性和值。&lt;/li&gt;
-
-恭喜你！要处理另一本书或选择处理一篇文章
-回到[[欢迎使用维基数据|Welcome to WikiData]]
-Add an [[item|add_item]]
-回到[[停止工作|Quit]]
-&lt;&lt;else&gt;&gt;unknown language
-Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
-[[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Article" tags="" position="1317,428" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FfXz_fOIz5U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;We describe the fundamental units of Wikidata, //items//, using statements.&lt;/li&gt;
-&lt;li&gt;A //statement// consists of a //property// and a //value//.&lt;/li&gt;
-&lt;li&gt;The most important property for making a statement about an item is probably &#39;&#39;P31&#39;&#39; (//instance of//), which describes the type of thing the item is.&lt;/li&gt;
-&lt;li&gt;When we start typing in an edit, dropdown lists help us select the right properties and values to use in the statement.&lt;/li&gt;
-
-To work on another article, or choose a book
-Return to [[Welcome to WikiData]]
-Add an [[item|add_item]]
-or [[Quit]]
+				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Volver al Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				salir
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				回到 Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				停止工作
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Article" tags="" position="1261,263" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Editing a journal article item&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Cómo describir un artículo en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;期刊文章的编辑&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FfXz_fOIz5U&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/hwgQw3J6uqk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;Describimos la unidad fundamental de Wikidata, el //ítem//, haciendo //declaraciones//.&lt;/li&gt;
-&lt;li&gt;Una //declaración// consiste de una //propiedad// y su //valor//. &lt;/li&gt;
-&lt;li&gt;La propiedad más importante para hacer una declaración sobre un ítem es probablemente el P31 (//instancia de//), que describe la clase del ítem.&lt;/li&gt;
-&lt;li&gt;Cuando empezemos a escribir en una caja de texto, aparecen menús desplegables que nos ayudan a escoger las propiedades y valores más apropriadas para la declaración.&lt;/li&gt;
-
-Para trabajar en otro artículo o elegir un libro
-Volver al [[Bienvenido a WikiData|Welcome to WikiData]]
-Add an [[item|add_item]]
-o [[salir|Quit]]
-&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;Pour travailler sur un autre article ou choisir un livre
-Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
-Add an [[item|add_item]]
-ou [[quitter|Quit]]
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/BHeGitAdgg4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot; class=&quot;btn btn-app&quot;&gt;
+				Add an item
+			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;We describe the fundamental units of Wikidata, //items//, using statements.&lt;/li&gt;&lt;li&gt;A //statement// consists of a //property// and a //value//.&lt;/li&gt;&lt;li&gt;The most important property for making a statement about an item is probably &#39;&#39;P31&#39;&#39; (//instance of//), which describes the type of thing the item is.&lt;/li&gt;&lt;li&gt;When we start typing in an edit, dropdown lists help us select the right properties and values to use in the statement.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Describimos la unidad fundamental de Wikidata, el //ítem//, haciendo //declaraciones//.&lt;/li&gt;&lt;li&gt;Una //declaración// consiste de una //propiedad// y su //valor//. &lt;/li&gt;&lt;li&gt;La propiedad más importante para hacer una declaración sobre un ítem es probablemente el P31 (//instancia de//), que describe la clase del ítem.&lt;/li&gt;&lt;li&gt;Cuando empezemos a escribir en una caja de texto, aparecen menús desplegables que nos ayudan a escoger las propiedades y valores más apropriadas para la declaración.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;我们用陈述来解说维基数据的基本单元，项目。&lt;/li&gt;&lt;li&gt;陈述是由属性和值所组成的。&lt;/li&gt;&lt;li&gt;为一个项目来建立陈述，其中最重要的属性是P31，性质。它显示了项目是什么种类。&lt;/li&gt;&lt;li&gt;当我们开始编辑数据，下拉的选项可以帮我们为陈述选择正确的属性和值。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;li&gt;我们用陈述来解说维基数据的基本单元，项目。&lt;/li&gt;
-&lt;li&gt;陈述是由属性和值所组成的。&lt;/li&gt;
-&lt;li&gt;为一个项目来建立陈述，其中最重要的属性是P31，性质。它显示了项目是什么种类。&lt;/li&gt;
-&lt;li&gt;当我们开始编辑数据，下拉的选项可以帮我们为陈述选择正确的属性和值。&lt;/li&gt;
-
-处理另一篇文章或选择处理一本书 
-回到[[欢迎使用维基数据|Welcome to WikiData]]
-Add an [[item|add_item]]
-回到[[停止工作|Quit]]
-&lt;&lt;else&gt;&gt;unknown language
-Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
-[[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="Quit" tags="" position="824,77" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;We hope you will come back!
+				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Volver al Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				salir
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				回到 Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				停止工作
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;add_item&quot;&gt;
+				Add an item
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Quit" tags="" position="824,77" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;We hope you will come back!
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;¡Esperamos que vuelvas!
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;Nous espérons que vous reviendrez!
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;希望您能再度光临！
@@ -494,7 +548,7 @@ ou [[quitter|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="add_item" tags="" position="1113,332" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/b-ONtY2Aa8w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="add_item" tags="" position="1203,380" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/b-ONtY2Aa8w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;If an item is not found during a search, the user is offered an opportunity to create it.&lt;/li&gt;
 &lt;li&gt;New items should always be given a //label// and a //description//. The label names the item and the description helps distinguish items that might have the same label by describing the item.&lt;/li&gt;
@@ -664,7 +718,7 @@ ou [[quitter|Quit]]
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1439,225" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Creating a Wikimedia account&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Cómo crear tu cuenta en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;创建账户&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="account" tags="" position="1210,140" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Creating a Wikimedia account&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Cómo crear tu cuenta en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;创建账户&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
 		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 &lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/qxusCaEu6hQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/Fga1fLcJ5Eg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
