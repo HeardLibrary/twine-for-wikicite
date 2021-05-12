@@ -505,7 +505,7 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 			&lt;/a&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;/div&gt;
-	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Quit" tags="" position="824,77" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;We hope you will come back!
+	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Quit" tags="" position="1725,33" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;We hope you will come back!
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;¡Esperamos que vuelvas!
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;Nous espérons que vous reviendrez!
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;希望您能再度光临！
@@ -1006,39 +1006,75 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;/div&gt;
 	&lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="12" name="qualifiers" tags="" position="246,370" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FOAlp5VIb9Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;Qualifiers help us to understand the context of statements.&lt;/li&gt;
-&lt;li&gt;Qualifiers can distinguish between different values for the same property. For example, they may help us know the order of values, or give the time period where a value was valid.&lt;/li&gt;
-
-Return to [[Welcome to WikiData]]
-[[Add a title|title]]
-or [[Quit]]
+</tw-passagedata><tw-passagedata pid="12" name="qualifiers" tags="" position="1490,32" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Qualifiers&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Calificadores en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;添加限定符&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/FOAlp5VIb9Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/LasPs6rVO6w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-
-Volver al [[Bienvenido a WikiData|Welcome to WikiData]]
-[[Add a title|title]]
-o [[salir|Quit]]
-&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
-Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
-[[Add a title|title]]
-ou [[quitter|Quit]]
-
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/v2Ke5Z6eTaE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot; class=&quot;btn btn-app&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot; class=&quot;btn btn-app&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot; class=&quot;btn btn-app&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot; class=&quot;btn btn-app&quot;&gt;
+				Add a title
+			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;li&gt;Qualifiers help us to understand the context of statements.&lt;/li&gt;
+&lt;li&gt;Qualifiers can distinguish between different values for the same property. For example, they may help us know the order of values, or give the time period where a value was valid.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Calificadores ayudan a entender el contexto de una declaración.&lt;/li&gt;&lt;li&gt;Calificadores ayudan a distinguir entre diferentes valores de la misma propiedad.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;限定符帮我们了解陈述的背景。&lt;/li&gt;&lt;li&gt;限定符可以区分同个属性里不同的值。例如，它能帮我们了解值的顺序，或值的有效期。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-
-回到[[欢迎使用维基数据|Welcome to WikiData]]
-[[Add a title|title]]
-回到[[停止工作|Quit]]
-&lt;&lt;else&gt;&gt;unknown language
-Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
-[[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="title" tags="" position="120,326" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/Si7juA6TJS8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Volver al Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				salir
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				回到 Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				停止工作
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;title&quot;&gt;
+				Add a title
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="title" tags="" position="1490,148" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/Si7juA6TJS8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;li&gt;The title statement gives the complete title of a work in the language the work was published in.&lt;/li&gt;
 &lt;li&gt;Labels may be the same as titles, but may be different if people typically call the item something else.&lt;/li&gt;
