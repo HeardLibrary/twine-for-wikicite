@@ -512,43 +512,74 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 &lt;&lt;else&gt;&gt;unknown language
 Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 [[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="person" tags="" position="801,430" size="100,100">&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/u6BxeZ4_PVU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;To start creating a new item from any page, click the &quot;Create new item&quot; link in the left menu.&lt;/li&gt;
-&lt;li&gt;//Aliases// provide alternate labels for an item. Searches include all aliases in addition to labels.&lt;/li&gt;
-&lt;li&gt;An item can have any number of aliases. If there are more than one, they are entered into the box separated by the //pipe// (vertical line) character {{{|}}}.&lt;/li&gt;
-&lt;li&gt;Automated scripts, called //bots//, will sometimes automatically add some kinds of statements like first and last names.&lt;/li&gt;
-
-Return to [[Welcome to WikiData]]
-[[Add support to statements|supporting_edits]] 
-or [[Quit]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="person" tags="" position="1197,607" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Editing a person in Wikidata&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Cómo describir a una persona en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;编辑人物&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/u6BxeZ4_PVU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/X8RMJ4ajaIE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;li&gt;Para empezar a crear un ítem nuevo desde cualquier página, haz clic en la pestaña &quot;Crear un elemento nuevo&quot; al lado izquierdo de la pantalla.&lt;/li&gt;
-&lt;li&gt;Los //alias// son etiquetas alternativas para un ítem. Las búsquedas incluyen los alias además de las etiquetas.&lt;/li&gt;
-&lt;li&gt;Un ítem puede tener cualquier número de alias. Si hay más de un alias, se entran en la caja de texto separados por //plecas// (paips) {{{|}}}.&lt;/li&gt;
-&lt;li&gt;Los //bots//, o scripts automatizados, a veces añaden automaticamente algunas declaraciones como apellidos o nombres de pila.&lt;/li&gt;
-
-Volver al [[Bienvenido a WikiData|Welcome to WikiData]]
-[[Add support to statements|supporting_edits]] 
-o [[salir|Quit]]
-&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
-Retourner au [[Bienvenue sur WikiData|Welcome to WikiData]]
-ou [[quitter|Quit]]
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/QXC06IVAgdI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot; class=&quot;btn btn-app&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot; class=&quot;btn btn-app&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot; class=&quot;btn btn-app&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot; class=&quot;btn btn-app&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;To start creating a new item from any page, click the &quot;Create new item&quot; link in the left menu.&lt;/li&gt;&lt;li&gt;//Aliases// provide alternate labels for an item. Searches include all aliases in addition to labels.&lt;/li&gt;&lt;li&gt;An item can have any number of aliases. If there are more than one, they are entered into the box separated by the //pipe// (vertical line) character {{{|}}}.&lt;/li&gt;&lt;li&gt;Automated scripts, called //bots//, will sometimes automatically add some kinds of statements like first and last names.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Para empezar a crear un ítem nuevo desde cualquier página, haz clic en la pestaña &quot;Crear un elemento nuevo&quot; al lado izquierdo de la pantalla.&lt;/li&gt;&lt;li&gt;Los //alias// son etiquetas alternativas para un ítem. Las búsquedas incluyen los alias además de las etiquetas.&lt;/li&gt;&lt;li&gt;Un ítem puede tener cualquier número de alias. Si hay más de un alias, se entran en la caja de texto separados por //plecas// (paips) {{{|}}}.&lt;/li&gt;&lt;li&gt;Los //bots//, o scripts automatizados, a veces añaden automaticamente algunas declaraciones como apellidos o nombres de pila.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;如要建立一个新的项目，使用坐落在页面左侧的按钮「创建新项」。&lt;/li&gt;&lt;li&gt;别名栏提供了项目的不同的名称。为要避免重复项，必须搜索每一个别名。&lt;/li&gt;&lt;li&gt;如果项目不只有一个别名，可用条竖线来分隔不同的别名 {{{|}}}。&lt;/li&gt;&lt;li&gt;有许多人物的数据是由电脑程式自动输入的，例如人物的姓和名。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
+&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;li&gt;如要建立一个新的项目，使用坐落在页面左侧的按钮「创建新项」。&lt;/li&gt;
-&lt;li&gt;别名栏提供了项目的不同的名称。为要避免重复项，必须搜索每一个别名。&lt;/li&gt;
-&lt;li&gt;如果项目不只有一个别名，可用条竖线来分隔不同的别名 {{{|}}}。&lt;/li&gt;
-&lt;li&gt;有许多人物的数据是由电脑程式自动输入的，例如人物的姓和名。&lt;/li&gt;
-
-回到[[欢迎使用维基数据|Welcome to WikiData]]
-[[Add support to statements|supporting_edits]] 
-回到[[停止工作|Quit]]
-&lt;&lt;else&gt;&gt;unknown language
-Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
-[[Go|Welcome to WikiData]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="add_item" tags="" position="1203,380" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Creating a new item&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Creación de un ítem nuevo en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;创建新项&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Volver al Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				salir
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				回到 Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				停止工作
+			&lt;/a&gt;
+&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
+			&lt;a data-passage=&quot;supporting_edits&quot;&gt;
+				Add support to statements
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
+				Start over
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;Quit&quot;&gt;
+				Quit
+			&lt;/a&gt;
+&lt;&lt;/if&gt;&gt;
+&lt;/div&gt;
+	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="add_item" tags="" position="1203,380" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Creating a new item&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Creación de un ítem nuevo en Wikidata&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;创建新项&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
 		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 &lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/b-ONtY2Aa8w&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/YrCppR_s5P4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
