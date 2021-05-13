@@ -1437,29 +1437,41 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about identifiers
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
 			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about identifiers
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
 			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about identifiers
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
 			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about identifiers
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;Two items that represent the same thing can be merged to create a single item using the //merge// gadget.&lt;/li&gt;&lt;li&gt;After a merge, check the label to make sure that the better of the two previous labels was used and correct as necessary.&lt;/li&gt;&lt;li&gt;Usually, statements aren&#39;t duplicated by the merge, but check for occasional errors.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Dos ítems que representan la misma cosa se pueden fusionar con el acesorio //merge//.&lt;/li&gt;&lt;li&gt;Después de fusionar dos ítems, revisamos la etiqueta para asegurar que quedó el mejor.&lt;/li&gt;&lt;li&gt;Típicamente el acesorio no duplica declaraciones, pero revisamos para estar seguros.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;使用合并的小工具可以把两个重复的项合并成一个项。&lt;/li&gt;&lt;li&gt;完成合并后，确认合并的项里留存了所有的陈述。但陈述有错误，请更改。&lt;/li&gt;&lt;li&gt;一般陈述不会被复制，但必须仔细检查。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
 &lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
@@ -1528,29 +1540,41 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;classification&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				How to classify items
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;Two commonly used identifiers for people are //VIAF// and //ORCID//.&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;http://viaf.org/&quot;&gt;viaf.org&lt;/a&gt; and &lt;a href=&quot;https://orcid.org/&quot;&gt;orcid.org&lt;/a&gt; websites can be used to search for the person whose identifier you want to add.&lt;/li&gt;&lt;li&gt;The identifier value becomes a clickable link, so adding a //reference URL// statement is not necessary in the reference.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Dos identificadores persistentes muy usados para personas son //VIAF// y //ORCID//.&lt;/li&gt;&lt;li&gt;Estos identificadores se pueden buscar en los sitios web &lt;a href=&quot;http://viaf.org/&quot;&gt;viaf.org&lt;/a&gt; y &lt;a href=&quot;https://orcid.org/&quot;&gt;orcid.org&lt;/a&gt;&lt;/li&gt;&lt;li&gt;El identificador, una vez entrado, se convierte en un enlace externo entonces no es necesario agregar la dirección web de la fuente.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;两个常见的人物标识符是VIAF虚拟国际权威档案识别码和ORCID标识符。&lt;/li&gt;&lt;li&gt;请到VIAF或ORCID的网址寻找作者的标识符。&lt;/li&gt;&lt;li&gt;标识符是可链接的，因此在参考栏里不需要添加来源网址。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
 &lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
@@ -1619,29 +1643,41 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				Learn about identifiers
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				Learn about identifiers
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				Learn about identifiers
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
 			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
 				Learn about gadgets
 			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
+			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary btn-primary-outline&quot;&gt;
 				Learn about identifiers
+			&lt;/a&gt;
+			&lt;a data-passage=&quot;outro&quot; class=&quot;btn btn-primary&quot;&gt;
+				Next steps
 			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;The //main subject// (&#39;&#39;P921&#39;&#39;) property is used to describe the main topic of a creative work.&lt;/li&gt;&lt;li&gt;The //genre// (&#39;&#39;P136&#39;&#39;) property is used to describe the category in which the work belongs.&lt;/li&gt;&lt;li&gt;Main subjects and genres are not very well controlled in Wikidata, so it is best to look at some similar examples to decide what items you might want to use as values for these properties.&lt;/li&gt;&lt;li&gt;Wikipedia can be used to find the Q ID for a subject that you might want to use with the //main subject// property.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;La propiedad //tema principal// (&#39;&#39;P921&#39;&#39;) de la obra se usa para describir el tópico de una obra creativa.&lt;/li&gt;&lt;li&gt;La propiedad //género// (&#39;&#39;P136&#39;&#39;) describe la categoría de la obra basada en criterios estilísticos.&lt;/li&gt;&lt;li&gt;Temas principales y géneros no son muy controlados en Wikidata. Una forma de decidir cual propiedad usar es mirar ítems parecidos.&lt;/li&gt;&lt;li&gt;Se puede utilizar Wikipedia para encontrar un indentificador Q para después usarlo como //tema principal//.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;主题的属性是用来描述创作的专题。&lt;/li&gt;&lt;li&gt;类型的属性是用来描述创作的种类。&lt;/li&gt;&lt;li&gt;在维基数据里，主题和类型的使用系统还不臻理想。请寻找类似的作品来找出合适的主题和类型。&lt;/li&gt;&lt;li&gt;维基百科对作品的分类和主题供应了有用的资讯。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
 &lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;Search at &lt;a href=&quot;https://www.google.com/&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Visit the &lt;a href=&quot;https://www.library.vanderbilt.edu/&quot;&gt;Vanderbilt Libraries&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;merci&lt;/p&gt;&lt;p&gt;fromage&lt;/p&gt;&lt;p&gt;rouge&lt;/p&gt;&lt;&lt;/if&gt;&gt;
@@ -1793,7 +1829,7 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 			&lt;/a&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;/div&gt;
-	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="20" name="outro" tags="" position="1513,802" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Congratulations for finishing the lessons!&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;¡Felicitaciones por haber terminado el curso!&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;恭喜你完成教程！&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
+	&lt;/div&gt;</tw-passagedata><tw-passagedata pid="20" name="outro" tags="" position="1513,802" size="100,100">&lt;div class=&quot;content-wrapper&quot;&gt;&lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Where can I go from here?&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;¡Felicitaciones por haber terminado el curso!&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;恭喜你完成教程！&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
 		&lt;div class=&quot;image-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 &lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
