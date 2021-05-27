@@ -1743,44 +1743,11 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/U_8aBqnzYI0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/KhjRFoUBkWE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
-&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;
-&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;
-&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;
-&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;//Talk// pages are a common way to communicate directly with other users in Wikidata.&lt;/li&gt;&lt;li&gt;An entry in a Talk page can be signed with four tildes (~~~~).&lt;/li&gt;&lt;li&gt;The &quot;Help&quot; link in the left navigation bar leads to many resources for beginners.&lt;/li&gt;&lt;li&gt;You can ask a question or discuss something on the &lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:Project_chat&quot;&gt;Project Chat page&lt;/a&gt;.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Páginas de //Discusión// son una forma de comunicarse con otros usuarios.&lt;/li&gt;&lt;li&gt;Firmamos mensajes en una página de charla con cuatro virgulillos (~~~~).&lt;/li&gt;&lt;li&gt;El enlace &quot;Ayuda&quot; al lado izquierdo de cada página trae muchos recursos para principiantes.&lt;/li&gt;&lt;li&gt;Podemos preguntar o charlar en la página &lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:Project_chat&quot;&gt;Wikidata:Café&lt;/a&gt; (&quot;Project Chat&quot;).&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;“讨论”是维基用者最常用来沟通的渠道。&lt;/li&gt;&lt;li&gt;用者必须在讨论栏里用四个波浪号来签名。&lt;/li&gt;&lt;li&gt;在维基页面的左边有帮助的链接，其中提供许多有用的资源。&lt;/li&gt;&lt;li&gt;你可以在互助客栈里使用发布新议题来提问或分享议题。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;//Talk// pages are a common way to communicate directly with other users in Wikidata.&lt;/li&gt;&lt;li&gt;An entry in a Talk page can be signed with four tildes (&amp;#126;&amp;#126;&amp;#126;&amp;#126;).&lt;/li&gt;&lt;li&gt;The &quot;Help&quot; link in the left navigation bar leads to many resources for beginners.&lt;/li&gt;&lt;li&gt;You can ask a question or discuss something on the &lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:Project_chat&quot;&gt;Project Chat page&lt;/a&gt;.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;Páginas de //Discusión// son una forma de comunicarse con otros usuarios.&lt;/li&gt;&lt;li&gt;Firmamos mensajes en una página de charla con cuatro virgulillos (&amp;#126;&amp;#126;&amp;#126;&amp;#126;).&lt;/li&gt;&lt;li&gt;El enlace &quot;Ayuda&quot; al lado izquierdo de cada página trae muchos recursos para principiantes.&lt;/li&gt;&lt;li&gt;Podemos preguntar o charlar en la página &lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:Project_chat&quot;&gt;Wikidata:Café&lt;/a&gt; (&quot;Project Chat&quot;).&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;“讨论”是维基用者最常用来沟通的渠道。&lt;/li&gt;&lt;li&gt;用者必须在讨论栏里用四个波浪号来签名。&lt;/li&gt;&lt;li&gt;在维基页面的左边有帮助的链接，其中提供许多有用的资源。&lt;/li&gt;&lt;li&gt;你可以在互助客栈里使用发布新议题来提问或分享议题。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
 &lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Books&quot;&gt;WikiProject Books&lt;/a&gt; briefly explains the FRBR model and its use in Wikidata&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Periodicals&quot;&gt;WikiProject Periodicals&lt;/a&gt; separates out metadata properties for periodicals, organization, volume, issue, and article&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Stanford_Libraries/Describing_people&quot;&gt;Describing people (Stanford)&lt;/a&gt; includes recommended properties for people&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Books&quot;&gt;WikiProject Books&lt;/a&gt; briefly explains the FRBR model and its use in Wikidata&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Periodicals&quot;&gt;WikiProject Periodicals&lt;/a&gt; separates out metadata properties for periodicals, organization, volume, issue, and article&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Stanford_Libraries/Describing_people&quot;&gt;Describing people (Stanford)&lt;/a&gt; includes recommended properties for people&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Books&quot;&gt;WikiProject Books&lt;/a&gt; briefly explains the FRBR model and its use in Wikidata&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Periodicals&quot;&gt;WikiProject Periodicals&lt;/a&gt; separates out metadata properties for periodicals, organization, volume, issue, and article&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Stanford_Libraries/Describing_people&quot;&gt;Describing people (Stanford)&lt;/a&gt; includes recommended properties for people&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Books&quot;&gt;WikiProject Books&lt;/a&gt; briefly explains the FRBR model and its use in Wikidata&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Periodicals&quot;&gt;WikiProject Periodicals&lt;/a&gt; separates out metadata properties for periodicals, organization, volume, issue, and article&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Wikidata:WikiProject_Stanford_Libraries/Describing_people&quot;&gt;Describing people (Stanford)&lt;/a&gt; includes recommended properties for people&lt;/p&gt;&lt;&lt;/if&gt;&gt;
 
 				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
 				Start over
 			&lt;/a&gt;
@@ -1788,38 +1755,20 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 				Quit
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
-				Volver al Start over
+				Volver al principio
 			&lt;/a&gt;
 			&lt;a data-passage=&quot;Quit&quot;&gt;
-				salir
+				Salir
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
-				回到 Start over
+				从新开始
 			&lt;/a&gt;
 			&lt;a data-passage=&quot;Quit&quot;&gt;
-				停止工作
+				停止
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
 				Start over
 			&lt;/a&gt;
@@ -1834,88 +1783,25 @@ Enter language code:&lt;&lt;textbox &quot;$lang&quot; &quot;&quot;&gt;&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/0Vec7C6ahdc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/SlriFLmR7Yk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;div class=&quot;links-wrapper&quot;&gt;
-&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;
-&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;
-&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;
-&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot; class=&quot;btn btn-app&quot;&gt;
-				Learn about gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot; class=&quot;btn btn-primary&quot;&gt;
-				Learn about identifiers
-			&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;//SPARQL// is a language that can be used for querying Wikidata. &lt;/li&gt;&lt;li&gt;You can use //QuickStatements// or //OpenRefine// to edit Wikdata more efficiently.&lt;/li&gt;&lt;li&gt;You can learn more about Wikidata from others on social media or by joining a group. &lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;//SPARQL// es un lenguaje con el cual se pueden hacer búsquedas complejas en Wikidata.&lt;/li&gt;&lt;li&gt;Se puede agilizar la editación con //QuickStatements// u //OpenRefine//.&lt;/li&gt;&lt;li&gt;Se puede participar en grupos de Wikidata en las redes sociales.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;//SPARQL//是一种电脑语言可用来查询维基里的数据。&lt;/li&gt;&lt;li&gt;你可以使用//QuickStatements// or //OpenRefine// 来更迅速地编辑和上传数据。&lt;/li&gt;&lt;li&gt;你可以从他人获得更多维基数据的学习，如果你参加维基专题或小组讨论。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;points-wrapper&quot;&gt;&lt;ul&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;li&gt;//SPARQL// is a language that can be used for querying Wikidata. &lt;/li&gt;&lt;li&gt;You can use //QuickStatements// or //OpenRefine// to edit Wikdata more efficiently.&lt;/li&gt;&lt;li&gt;You can learn more about Wikidata from others on social media or by joining a group. &lt;/li&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;li&gt;//SPARQL// es un lenguaje con el cual se pueden hacer búsquedas complejas en Wikidata.&lt;/li&gt;&lt;li&gt;Se puede agilizar la editación con //QuickStatements// u //OpenRefine//.&lt;/li&gt;&lt;li&gt;Se puede participar en grupos de Wikidata en las redes sociales.&lt;/li&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;li&gt;//SPARQL//是一种电脑语言可用来查询维基里的数据。&lt;/li&gt;&lt;li&gt;你可以使用//QuickStatements// or //OpenRefine// 来更迅速地编辑和上传数据。&lt;/li&gt;&lt;li&gt;你可以从他人获得更多维基数据的学习，如果你参加维基专题或小组讨论。&lt;/li&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;li&gt;merci&lt;/li&gt;&lt;li&gt;fromage&lt;/li&gt;&lt;li&gt;rouge&lt;/li&gt;&lt;&lt;/if&gt;&gt;&lt;/ul&gt;
 &lt;/div&gt;&lt;div class=&quot;contact-wrapper&quot;&gt;
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Help:QuickStatements&quot;&gt;QuickStatements&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openrefine.org/&quot;&gt;OpenRefine&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://query.wikidata.org/&quot;&gt;Wikidata Query Service (SPARQL)&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Help:QuickStatements&quot;&gt;QuickStatements&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openrefine.org/&quot;&gt;OpenRefine&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://query.wikidata.org/&quot;&gt;Wikidata Query Service (SPARQL)&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Help:QuickStatements&quot;&gt;QuickStatements&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openrefine.org/&quot;&gt;OpenRefine&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://query.wikidata.org/&quot;&gt;Wikidata Query Service (SPARQL)&lt;/a&gt;&lt;/p&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;&lt;p&gt;For further information:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wikidata.org/wiki/Help:QuickStatements&quot;&gt;QuickStatements&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openrefine.org/&quot;&gt;OpenRefine&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://query.wikidata.org/&quot;&gt;Wikidata Query Service (SPARQL)&lt;/a&gt;&lt;/p&gt;&lt;&lt;/if&gt;&gt;
 
 				&lt;div class=&quot;contact-links-wrapper&quot;&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
 				Start over
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;Quit&quot;&gt;
-				Quit
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
-				Volver al Start over
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;Quit&quot;&gt;
-				salir
+				Volver al principio
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
-				回到 Start over
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;Quit&quot;&gt;
-				停止工作
+				从新开始
 			&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;
-			&lt;a data-passage=&quot;gadgets&quot;&gt;
-				Gadgets
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;book_identifiers&quot;&gt;
-				Identifiers
-			&lt;/a&gt;
 			&lt;a data-passage=&quot;Welcome to WikiData&quot;&gt;
 				Start over
-			&lt;/a&gt;
-			&lt;a data-passage=&quot;Quit&quot;&gt;
-				Quit
 			&lt;/a&gt;
 &lt;&lt;/if&gt;&gt;
 &lt;/div&gt;
