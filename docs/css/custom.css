@@ -94,4 +94,28 @@
 		width: 100%;
 		margin-bottom: 10px;
 	}
+	
+	  .content-wrapper .image-wrapper iframe {
+	  width: 100% !important;
+	  height: 400px !important;
+	}
+
+	.link-internal br {
+	  display: none;
+	}
+	.link-internal {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+	.link-internal:hover {
+	  background-color: #ffffff20;
+	}
+	.btn.btn-app.link-internal:hover {
+	  background-color: #e67c00;
+	}
+
+	.btn-primary:hover {
+	  background-color: #1d2b6f !important;
+	}	
 }
