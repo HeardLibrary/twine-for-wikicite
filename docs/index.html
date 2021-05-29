@@ -197,9 +197,9 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 	max-width: 100%;
 }
 
+/* developer used !important to force 100% */
 .content-wrapper .image-wrapper iframe {
-/*		width: 100%;
-    height: 400px;*/
+	width: 100% !important;
 }
 
 .points-wrapper {
@@ -345,7 +345,9 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 /* override the fixed width of the passage area */
 #passages {
   max-width: unset;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="110,67" size="100,100">&lt;&lt;script&gt;&gt;
+}
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Welcome to WikiData" tags="" position="110,67" size="100,100">&lt;&lt;script&gt;&gt;
 // location.search retrieves the search string from the URL (including the ?)
 var localID = location.search;
 // set the language only if there is a ? plus additional characters
