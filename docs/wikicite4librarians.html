@@ -2033,7 +2033,7 @@ if (localID.length&gt;1)
 	var isoLanguage=localID.substring(1);
 	state.active.variables[&quot;lang&quot;]=isoLanguage;
 	};
-&lt;&lt;/script&gt;&gt;&lt;&lt;if def $lang&gt;&gt;
+&lt;&lt;/script&gt;&gt;&lt;&lt;if def $lang&gt;&gt;&lt;div class=&quot;content-wrapper&quot;&gt;
 &lt;p&gt;&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;Introduction to Wikida and WikiCite 
 Permalink to this page: &lt;a href=&quot;https://heardlibrary.github.io/twine-for-wikicite/?en&quot;&gt;heardlibrary.github.io/twine-for-wikicite/?en&lt;/a&gt;
 &lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;Introducción a Wikidata y WikiCite
@@ -2045,7 +2045,7 @@ French
 Permalink to this page: &lt;a href=&quot;https://heardlibrary.github.io/twine-for-wikicite/?fr&quot;&gt;heardlibrary.github.io/twine-for-wikicite/?fr&lt;/a&gt;&lt;&lt;/if&gt;&gt;&lt;/p&gt;
 [[Welcome to WikiData]] 
 
-&lt;&lt;else&gt;&gt;
+&lt;/div&gt;&lt;&lt;else&gt;&gt;
 
 &lt;div class=&quot;content-wrapper&quot;&gt;&lt;div class=&quot;links-wrapper&quot;&gt;&lt;a data-passage=&quot;landing&quot; onclick=&quot;return set_en()&quot; class=&quot;btn btn-app&quot;&gt;
 				English
