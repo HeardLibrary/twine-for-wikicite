@@ -2019,10 +2019,10 @@ María Pía Arrate&lt;&lt;if $lang is &quot;en&quot;&gt;&gt;
 &lt;&lt;if $lang is &quot;en&quot;&gt;&gt;&lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/grants&quot;&gt;WikiCite is funded by the Alfred P. Sloan Foundation.&lt;/a&gt;&lt;&lt;elseif $lang is &quot;es&quot;&gt;&gt;&lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/grants&quot;&gt;Realizado con apoyo financiero de la Fundación Alfred P. Sloan&lt;/a&gt;&lt;&lt;elseif $lang is &quot;zh-Hans&quot;&gt;&gt;&lt;a href=&quot;https://meta.wikimedia.org/wiki/WikiCite/grants&quot;&gt;此计划是由Alfred P. Sloan基金所赞助&lt;/a&gt;&lt;&lt;elseif $lang is &quot;fr&quot;&gt;&gt;french&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="landing" tags="" position="251,23" size="100,100">
 
 &lt;&lt;script&gt;&gt;
-window.set_en = function (){ state.active.variables[&quot;lang&quot;]=&quot;en&quot;; var selectLang = &quot;True&quot;; }
-window.set_es = function (){ state.active.variables[&quot;lang&quot;]=&quot;es&quot;; var selectLang = &quot;True&quot;; }
-window.set_zh = function (){ state.active.variables[&quot;lang&quot;]=&quot;zh-Hans&quot;; var selectLang = &quot;True&quot;; }
-window.set_fr = function (){ state.active.variables[&quot;lang&quot;]=&quot;fr&quot;; var selectLang = &quot;True&quot;; }
+window.set_en = function (){ state.active.variables[&quot;lang&quot;]=&quot;en&quot;; state.active.variables[&quot;selectLang&quot;] = &quot;True&quot;; }
+window.set_es = function (){ state.active.variables[&quot;lang&quot;]=&quot;es&quot;; state.active.variables[&quot;selectLang&quot;] = &quot;True&quot;; }
+window.set_zh = function (){ state.active.variables[&quot;lang&quot;]=&quot;zh-Hans&quot;; state.active.variables[&quot;selectLang&quot;] = &quot;True&quot;; }
+window.set_fr = function (){ state.active.variables[&quot;lang&quot;]=&quot;fr&quot;; state.active.variables[&quot;selectLang&quot;] = &quot;True&quot;; }
 
 // location.search retrieves the search string from the URL (including the ?)
 var localID = location.search;
